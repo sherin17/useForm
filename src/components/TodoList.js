@@ -17,9 +17,9 @@ const TodoList = () => {
                     <TextField name='description' value={todo.description} label="Description" variant="filled" fullWidth onChange={settodos}></TextField><br></br><br></br>
                     <Button variant="contained" color='error' >ADD</Button>
                 </form>
-                    <Typography variant='h6'>{todo.name}</Typography>
-                    <Typography variant='h6'>{todo.quantity}</Typography>
-                    <Typography variant='h6'>{todo.description}</Typography>
+                    <Typography variant='h6'>Name{todo.name}</Typography>
+                    <Typography variant='h6'>Quantity{todo.quantity}</Typography>
+                    <Typography variant='h6'>Description{todo.description}</Typography>
             </Container>
         </div>
     )
